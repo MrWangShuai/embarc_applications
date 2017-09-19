@@ -999,7 +999,7 @@ void light_mode_top_pack(uint8_t mode,uint8_t bri,uint8_t freq,uint8_t time,uint
 	}
 	switch(mode) {
 	case LIGHT_MODE_RUNNING:
-					light_mode_run(freq1,bri1);
+				light_mode_run(freq1,bri1);
 				break;
 	case LIGHT_MODE_ALARM:
 				light_mode_alarm(freq1,bri1);
