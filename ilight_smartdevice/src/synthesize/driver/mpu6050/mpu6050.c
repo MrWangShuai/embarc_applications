@@ -45,6 +45,9 @@
 /* custom HAL */
 #include "mpu6050.h"
 
+/* embARC HAL */
+#include "embARC.h"
+#include "embARC_debug.h"
 
 /**
  * MPU6050 internal register address macro definition
@@ -54,9 +57,9 @@
 #define	SMPLRT_DIV			0x19
 
 /* Low pass filter frequency, typical value: 0x06 (5Hz) */
-#define	LPF_CONFIG			0x1A	
+#define	LPF_CONFIG				0x1A	
 #define	MPU_GYRO_CFG_REG		0x1B	
-#define	MPU_ACCEL_CFG_REG	    	0x1C	
+#define	MPU_ACCEL_CFG_REG		0x1C	
 #define MPU_INT_EN_REG			0X38	
 #define MPU_USER_CTRL_REG		0X6A 	
 #define MPU_FIFO_EN_REG			0X23	

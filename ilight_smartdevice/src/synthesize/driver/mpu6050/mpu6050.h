@@ -46,9 +46,7 @@
 #ifndef _MPU6050_H_
 #define _MPU6050_H_
 
-/* embARC HAL */
-#include "embARC.h"
-#include "embARC_debug.h"
+
 
 /*!<IIC write when the address byte data, + 1 for the read */
 #define	MUPADDRESS		0xD0	
